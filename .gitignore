@@ -1,2 +1,11 @@
 *.egg-info
 data
+env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+.DS_Store
