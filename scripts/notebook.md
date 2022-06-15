@@ -37,10 +37,21 @@ from src import computation as comp
 import xarray as xr
 import pandas as pd
 from matplotlib import pyplot as plt
+import os
+```
+
+```python
+#define paths
+test_path = os.path.join('demo_data', 'test.txt')
+print(test_path)
+print(os.getcwd())
+os.path.exists(test_path)
 ```
 
 ```python
 #data inputs
+io.readfile(test_path)
+
 
 ```
 
